@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+This project helps to give you tips in Ethereum. You can call it a crypto version of BuyMeACoffe application
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Command to run this project
 
-Try running some of the following tasks:
+=> npm install
+=>npx hardhat run scripts/buy-coffee
+=>npx hardhat run scripts/deploy.js --network goerli
+=>npx hardhat run scripts/withdraw.js
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Don't forget to put the goerli url and api key after creating it from Alchemy in .env file. Also put your private key of metamask account in .env file to make the transactions happen.
+
